@@ -22,16 +22,16 @@ def classify_with_bert(log_message):
 
 if __name__ == "__main__":
     test_messages = [
-        # "User User123 logged in.",
-        # "Backup started at 2023-10-01 12:00:00.",
+        "User User123 logged in.",
+        "Backup started at 2023-10-01 12:00:00.",
         "Hello, world!",
-        # "Backup completed successfully.",
-        # "This is a test message.",
-        # "System updated to version 1.2.3.",
-        # "File report.pdf uploaded successfully by user User456.",
-        # "Disk cleanup completed successfully.",
-        # "System reboot initiated by user User789.",
-        # "Account with ID 1001 created by admin."
+        "Backup completed successfully.",
+        "This is a test message.",
+        "System updated to version 1.2.3.",
+        "File report.pdf uploaded successfully by user User456.",
+        "Disk cleanup completed successfully.",
+        "System reboot initiated by user User789.",
+        "Account with ID 1001 created by admin."
     ]
     
     for message in test_messages:
